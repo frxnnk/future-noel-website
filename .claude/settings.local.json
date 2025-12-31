@@ -10,7 +10,12 @@
       "mcp__github-personal__create_repository",
       "Bash(gh auth:*)",
       "Bash(gh repo create:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Future Noel - Mercury-style DevOps landing page\n\nComplete redesign with premium, sophisticated UI inspired by Mercury Bank:\n- Custom design system with refined color palette and animations\n- Bento grid capabilities section with metrics\n- Animated hero with terminal visual\n- Service cards with watermark numbers and hover effects\n- Glassmorphism header with mobile menu\n- Intersection Observer animations throughout\n- Custom CSS utilities for gradients, glow effects, and microinteractions\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(npm show:*)",
+      "Bash(git commit:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }
