@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npx next dev)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(git init:*)",
+      "mcp__github-personal__create_repository",
+      "Bash(gh auth:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
